@@ -16,12 +16,13 @@ public class defaultGUI extends JFrame {
 
   /*GUI Frame */
   public defaultGUI() {
-    setTitle("Sprint 0 Minimal GUI");
+   // Temporary title for now
+    setTitle("Solitaire Example GUI");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setSize(600, 300);
     setLayout(new FlowLayout());
 
-    // Text requirement, a temporary title for now
+    // Text requirement, reiterating title
     add(new JLabel("Solitaire Example GUI"));
 
     // Radio buttons 1 and 2 (Will be repurposed into gamemode or difficulty)

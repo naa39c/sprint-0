@@ -8,7 +8,7 @@ class MPGPriceTest {
         MPGPrice purchase = new MPGPrice(9.5, 3.50);
         //Testing filling up a 9.5 gallon vehicle at 3.50 dollars a gallon. Output should be $33.25
         // 0.001 is for floating-point comparison.
-        assertEquals(40.00, purchase.calculateFillUpCost(), 0.001);
+        assertEquals(33.25, purchase.calculateFillUpCost(), 0.001);
     }
 
     @Test
